@@ -95,7 +95,7 @@ public class ContaBancaria implements Conta {
             saldoConta += valor;
             return saldoConta;
         }else
-            System.out.println("Não foi possível efetuar a aplicação.\n");
+            System.out.println("Não foi possível efetuar aplicação.\n");
         return null;
     }
 }
